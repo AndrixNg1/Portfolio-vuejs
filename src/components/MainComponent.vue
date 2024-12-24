@@ -22,12 +22,12 @@
         class="icon absolute top-0 left-0 animate-spin-slow transform hover:scale-125 transition duration-300"
       />
       <img
-        src="@/assets/img/javascript.png"
+        src="@/assets/img/Javascript.png"
         alt="JavaScript"
         class="icon absolute bottom-0 right-0 animate-spin-slow transform hover:scale-125 transition duration-300"
       />
       <img
-        src="@/assets/img/tailwind css.png"
+        src="@/assets/img/Tailwind css.png"
         alt="TailwindCSS"
         class="icon absolute top-10 right-10 animate-spin-slow transform hover:scale-125 transition duration-300"
       />
