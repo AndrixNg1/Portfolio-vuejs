@@ -86,7 +86,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('@/assets/img/stardust.png') repeat;
+  /*background: url('@/assets/img/and1.jpg') repeat;*/
   /* Tiled background */
   opacity: 0.15;
   /* Subtle effect */
