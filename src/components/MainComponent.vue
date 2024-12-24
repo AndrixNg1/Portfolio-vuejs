@@ -17,7 +17,7 @@
     <!-- Icons Section -->
     <div class="icons-section relative w-72 h-72 flex items-center justify-center lg:ml-10">
       <img
-        src="@/assets/img/vue.js.png"
+        src="@/assets/img/Vue.js.png"
         alt="Vue.js"
         class="icon absolute top-0 left-0 animate-spin-slow transform hover:scale-125 transition duration-300"
       />
