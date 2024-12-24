@@ -1,7 +1,10 @@
 <template>
   <div class="contact-form w-full bg-gray-900 text-white py-20 px-4 lg:px-8">
     <div class="container mx-auto max-w-lg">
-      <h2 class="text-4xl font-extrabold text-center mb-8">Contact Me</h2>
+      <h2 class="text-4xl font-extrabold text-center mb-4">Contact Me</h2>
+      <p class="text-center text-lg text-gray-300 mb-8">
+        Have a question, an idea, or just want to say hi? I'm always happy to connect and collaborate. Drop me a message, and I'll get back to you as soon as possible!
+      </p>
       <form @submit.prevent="sendMessage">
         <div class="mb-4">
           <label for="name" class="block text-sm font-semibold mb-2">Name</label>
@@ -68,7 +71,6 @@ const sendMessage = async () => {
 
     if (response.ok) {
       alert('Votre message a été envoyé avec succès !');
-      // Réinitialiser le formulaire après l'envoi
       form.value.name = '';
       form.value.email = '';
       form.value.message = '';
@@ -91,6 +93,11 @@ const sendMessage = async () => {
 .contact-form .container {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.contact-form p {
+  color: #cccccc;
+  font-size: 1.125rem;
 }
 
 .contact-form label {
