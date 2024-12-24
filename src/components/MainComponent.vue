@@ -22,7 +22,7 @@
         class="icon absolute top-0 left-0 animate-spin-slow transform hover:scale-125 transition duration-300"
       />
       <img
-        src="@/assets/img/Javascript.png"
+        src="@/assets/img/JavaScript.png"
         alt="JavaScript"
         class="icon absolute bottom-0 right-0 animate-spin-slow transform hover:scale-125 transition duration-300"
       />
