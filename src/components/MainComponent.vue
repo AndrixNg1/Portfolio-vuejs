@@ -27,7 +27,7 @@
         class="icon absolute bottom-0 right-0 animate-spin-slow transform hover:scale-125 transition duration-300"
       />
       <img
-        src="@/assets/img/Tailwind css.png"
+        src="@/assets/img/TailwindCSS.png"
         alt="Tailwind CSS"
         class="icon absolute top-10 right-10 animate-spin-slow transform hover:scale-125 transition duration-300"
       />
