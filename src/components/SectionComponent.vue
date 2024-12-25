@@ -46,37 +46,33 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  /* Prevents horizontal scrolling */
 }
 
 /* Section principale */
 .about-page {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
   min-height: 100vh;
-  /* Full viewport height */
   padding: 2rem;
   color: #fff;
   box-sizing: border-box;
   overflow: hidden;
   width: 100%;
+  text-align: center;
 }
 
 /* Fond étoilé */
 .star-background {
   position: fixed;
-  /* Fixed background for full coverage */
   top: 0;
   left: 0;
   width: 100vw;
-  /* Full viewport width */
   height: 100vh;
-  /* Full viewport height */
   background: radial-gradient(ellipse at bottom, #0a0a0a, #000);
   z-index: -1;
-  /* Behind all content */
 }
 
 .star-background::after {
@@ -86,29 +82,25 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  /*background: url('@/assets/img/and1.jpg') repeat;*/
-  /* Tiled background */
   opacity: 0.15;
-  /* Subtle effect */
   z-index: -1;
 }
 
 /* Conteneur principal */
 .content-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   width: 100%;
-  /* Full width for content */
-  padding: 0 2rem;
+  padding: 1rem;
 }
 
 /* Texte */
 .text-content {
-  flex: 1 1 50%;
   z-index: 1;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .text-content h2 {
@@ -146,14 +138,13 @@ body {
 
 /* Image */
 .image-container {
-  flex: 1 1 50%;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .image-container img {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 8px;
   filter: grayscale(100%);
   transition: filter 0.3s ease-in-out, transform 0.3s;
@@ -169,6 +160,7 @@ body {
   .content-container {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
 
   .text-content {
@@ -176,9 +168,25 @@ body {
     padding: 1rem;
   }
 
+  .text-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .text-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .text-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .text-content p {
+    font-size: 0.9rem;
+    margin: 0.8rem 0;
+  }
+
   .image-container img {
-    width: 100%;
-    /* Full width on smaller screens */
+    max-width: 250px;
   }
 }
 </style>

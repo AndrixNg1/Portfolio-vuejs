@@ -14,7 +14,4 @@ import ServiceComponent from '@/components/ServiceComponent.vue';
     <ServiceComponent/>
     <CompetenceComponent/>
   </main>
-
-
-
 </template>
